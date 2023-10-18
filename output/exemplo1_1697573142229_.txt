@@ -1,0 +1,2 @@
+Extracting Text from Imagesin
+Node.js | Tessaract.js

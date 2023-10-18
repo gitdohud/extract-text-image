@@ -1,0 +1,31 @@
+> Sep 27, 2023 @ 21:43:11.693 gestao-cobranca 2823-09-28 00:43:11.693 INFO - --- [enerContainer-1] - ID:0bb29370-402c-465a-a9e7-e477750c7432 - b.c.v.g.c.a.service.BaixaBoletoService : BaixaBoletoService.compens
+arBoleto - enviando slip para SAP - NotificarSapReceberSlioDTO(S0 acao0rigen=GestaoCobranca idCobranca=edSddc38-744b-48ff-abla-7d28c0850 idConta=152271, idClie
+nte=1539546, nsu=25236342, imrcassatanzaes rors. Pata tt] meioPagamento=PIX, eocsgonanco-o0r. [uasoromuas] vator nureton 41. valor
+ulta=0.87, valorDesconto=8, nossoNumero=null, paymentId=IpfhSKVPwv8C1ruspoSUGhDmHs1AAGie18e, atividade=null
+
+> Sep 27, 2023 © 21:43:11.683 gestao-cobranca 2023-09-28 00:43:11.683 INFO - --- [enerContainer-1] - ID:9bb29370-402c-465a-a9e7-e477750cf432 - b.c.v.g.c.a.service.BaixaBoletoService : BaixaBoletoService.compens
+arBoleto - compensando boleto - GestaoCobrancaStorageDTO(id=ed5ddc38-744b-48ff-abla-7d28e@850575, idCliente=1539540, nsu=25236342, ultimaAtualizacao=Wed Sep 27 23:10:52
+GMT 2623, situacao=AGUARDANDO_PAGAMENTO, dataVencimento=Hon Oct 62 60:06:60 GMT 2023, idConta=152271, paymentIdGateway=IpfhSKVPwv8C1ruspoSUGhDmHs1AA@ie18e, meioPagament
+0=PIX, mensagem=Segunda via gerada com sucesso!, origem=MOBILE_ANDROID, valorOriginal=43.46, valorACobrar=45.84, valorJuros=1.51, valorMulta=6.87, valorDesconto=8, valo
+rPago=null, dataRegistro=2023-89-27723:10:52.252, dataPagamento=null, dataCredito=null, codigoBanco=01, slip=1695856252252-152271, boletoNossoNumero=null, boletoLinhaD
+igitavel=null, boletoCodigoBarras=null, boletoLink=null, boletoLinkGateway=null, codigoPix=00620101621226856014br.gov.bch.pix2563qrcodepix.bb.com.br/pix/v2/5cfdcf89-efe
+2-47db-bhe?-6AbFACAN142557A4AAAASIAI0RGEAA5AS  RA5RAPRREAASVEI DFAARTRARUFRTAIA7ASAZ x +63A4RFAA. codianPixRase64=1VRORWAKGNAAAANSURFLIGAAAMAAAADTAOAAAACF TMZ AAACSE TFOVRAX
+
+> Sep 27, 2023 @ 21:43:11.683 gestao-cobranca 2823-09-28 00:43:11.683 INFO - --- [enerContainer-1] - ID:0bb29370-462c-465a-a9e7-e477750¢c7432 - .c.v.g.a.o0.h.GestaoCobrancaDynamoHandler : GestaoCobrancaDynamoHandle
+r.processarBaixaBoleto - Dados atuais: GestaoCobrancaEntity(id=ed5ddc38-744b-48ff-abla-7d28e0850575, idCliente=1539540, nsu=25236342, situacao=AGUARDANDO_PAGAMENTO, dat
+aVencimento=Mon Oct 62 00:00:00 GMT 2623, ultimaAtualizacao=Wed Sep 27 23:10:52 GMT 2023, idConta=152271, paymentIdGateway=IpfhSKVPwvBCTruspoSUGhDmHs1AAGie18e, meioPaga
+mento=PIX, mensagem=Segunda via gerada com sucesso!, origem=MOBILE_ANDROID, valorOriginal=43.46, valorACobrar=45.84, valorJuros=1.51, valorMulta=0.87, valorDesconto=®
+valorPago=null, dataRegistro=2623-69-27723:10:52.252, dataPagamento=null, dataCredito=null, codigoBanco=801, slip=1695856252252-152271, boletoNossoNumero=null, boletoli
+nhaDigitavel=null, boletoCodigoBarras=null, boletoLink=null, boletoLinkGateway=null, codigoPix=80626161621226856014br.gov.bcb.pix2563qrcodepix.bb.com.br/pix/v2/5cfdcf89
+-efe2-47db-bbe2-60bTAC6b14a5520400005303986540545 . 845802BR5905VELOE6GO7BARUERT62070503 ++ +6364BES3. codicoPixBase64=1VBORWBKGAOAAAANSUNEUGAAAMGAAADIAOAAAACF ISMZAAACSE LEQ
+
+> Sep 27, 2023 @ 21:43:11.683 gestao-cobranca 2823-09-28 00:43:11.683 INFO - --- [enerContainer-1] - ID:0bb29370-462c-465a-a9e7-e477750¢c7432 - .c.v.g.a.o0.h.GestaoCobrancaDynamoHandler : GestaoCobrancaDynamoHandle
+r.processarBaixaBoleto - Novos dados: GestaoCobrancaEntity(id=ed5ddc38-744b-48Ff-abla-7d28¢68505F5, idCliente=1539546, nsu=25236342, situacao=COMPENSADO, dataVencimento
+=Mon Oct 02 60:06:00 GMT 2023, ultimeAtualizacao=Thu Sep 28 00:43:11 GMT 2623, idConta=152271, paymentIdGateway=IpfhSKVPwv8C1ruspoSUGhDmHs1AABie18e, meioPagamento=PIX,
+mensagem=Segunda via gerada com sucesso!, origem=MOBILE_ANDROID, valorOriginal=43.46, valorACobrar=45.84, valorJuros=1.51, valorMulta=.87, valorDesconto=8, valorPago=n
+ull, dataRegistro=2023-89-27723:10:52.252, dataPagamento=null, dataCredito=null, codigoBanco=801, slip=1695856252252-152271, boletoNossoNumero=null, boletoLinhaDigitave
+1=null, boletoCodigoBarras=null, boletoLink=null, boletoLinkGateway=null, codigoPix=00620101021226850014br.gov.bcb.pix2563qreodepix.bb.com.br/pix/v2/5cfdcf89-efe2-47db-
+bhe?-6hfAc6h14a557A4AAAAS3A308A540545  RAGRADRREOASVE] OF6AATRARUFRT62A7ARA£+63A4RFAA. codinoPixRasehd=1VRORWAKGAOAAAANSURFUGAAAMGAAADTAOAAAACF TSM AAACSFTFOVRAXUDXTAI i
+
+> Sep 27, 2023 © 21:43:11.677 gestao-cobranca 2023-09-28 00:43:11.677 INFO - --- [enerContainer-1] - ID:9bb29370-482c-465a-a9e7-e477750cf432 - b.c.v.g.a.i.SqsBaixaBoletoConsumer : SgsBaixaBoletoConsumer.con
+sumir - processando mensagem: {"paymentId”:"IpfhSKVPwv8CTruspoSUGhDmHs1AABie18e” , “nsu” : "25236342" }
